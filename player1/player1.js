@@ -40,7 +40,7 @@ addForm.addEventListener("submit", function (e) {
             handleMarkup('success', player1)
             localStorage.setItem('PLAYER1', xhr.responseText)
              setTimeout(() => {
-                window.location.href = `${window.location.origin}/player2/player2.html`
+                location.href = "../player2/player2.html";
             }, 3000);
         } else {
             handleMarkup('failed')

@@ -25,9 +25,10 @@ function handlePlayersMarkup () {
 window.addEventListener("load", handlePlayersMarkup);
 
 document.getElementById('btt').addEventListener("click", function(){
-     window.location.href = `${window.location.origin}/finalScore/final.html`
+     // window.location.href = `${window.location.origin}/finalScore/final.html`
+     location.href = "../finalScore/final.html";
 });
 
 document.getElementById('bnt').addEventListener("click", function(){
-     window.location.href = `${window.location.origin}/player1/player1.html`
+     location.href = "../player1/player1.html";
 });

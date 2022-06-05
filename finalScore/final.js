@@ -52,5 +52,5 @@ function handlePlayersMarkup() {
 window.addEventListener('load', handlePlayersMarkup);
 
 document.getElementById("startbtn").addEventListener('click', function(){
-    window.location.href = "index.html";
+    location.href = "../github/index.html";
 });

@@ -39,7 +39,7 @@ addForm.addEventListener("submit", function (e) {
             handleMarkup('success', player2)
             localStorage.setItem('PLAYER2', xhr.responseText)
              setTimeout(() => {
-                window.location.href = `${window.location.origin}/playersBattle/playersBattle.html`;
+                location.href = "../playersBattle/playersBattle.html";
             }, 3000);
         } else {
             handleMarkup('failed')
